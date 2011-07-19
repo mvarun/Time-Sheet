@@ -1,0 +1,6 @@
+<h1>edit Posts</h1>
+<% form_for :post, :url =>  post_path,:html => { :method => :put }  do |f|%>
+  <%=  render :partial => 'form', :locals => { :f => f } %>
+  <p> <%= submit_tag 'update' %></p>
+  <%=link_to "back",posts_path,:class=>"link"%>
+<% end %>

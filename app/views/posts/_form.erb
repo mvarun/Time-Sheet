@@ -1,0 +1,8 @@
+<p><%=  f.label :Select_Category %></p>
+<p><%= collection_select(:post,:category,Category.all,:name,:name)%> </p>
+<p> <%=  f.label :Title %></p>
+  <p><%= f.text_field :title %></p>
+  <p> <%=  f.label :Description %></p>
+  <p><%= f.text_area :description %></p>
+  
+ 

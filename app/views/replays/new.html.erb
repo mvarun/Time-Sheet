@@ -1,0 +1,5 @@
+<h1>Create Reply</h1>
+<% form_for :replay, :url =>  replays_path(:id=> @replay.comment_id) do |f|%>
+  <%=  render :partial => 'form', :locals => { :f => f } %>
+  <p> <%= submit_tag 'Create' %></p>
+ <% end %>

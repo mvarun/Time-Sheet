@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <p><%=@current_user.email %>has invited you to join "<%=current_user.email %>'s workspace" at Timesheet. </p>
+    <p>To confirm this invitation, click here: </p>
+    <p>http://localhost:3000/user/new?code=<%=current_user.id%></p>
+  </body>
+</html>

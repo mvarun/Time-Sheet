@@ -1,0 +1,548 @@
+Script started on Friday 25 June 2010 12:24:42 PM IST
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script int[Kstall plugin git://github.com/thoughtbot/paperclip.git
+Script started, file is install
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ exit[2Pls./script/serverrake db:migrate./script/serverls[Kexit[Kscript install plugin http://github.com/thoughtbot/paperclip.git
+Script started, file is install
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script generate paperclippost[K[K[K[K posts image
+Script started, file is generate
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ exit[2Plsexit[K[K[K[K/script/genetare[K[K[K[K[Kerate paperclip posts image
+bash: /script/generate: No such file or directory
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ /script/generate paperclip posts image[1@.
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from ./script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ ./script/generate paperclip posts image[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P image
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/generate paperclip post image[3@./script/generate paperclip posts[C[C[C[C[C[C[3Pscript/generate paperclip post[C[C[C[C[C[C
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/thoughtbot-paperclip-c978c49/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/generate paperclip post image[1@.[1@/
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/thoughtbot-paperclip-c978c49/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from ./script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake rails:update:application_controller
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake rails:update:application_controller[2P./script/generate paperclip post image[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/thoughtbot-paperclip-c978c49/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/generate paperclip post image
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migrate:down versio[K[K[K[K[K[KVERSION=20100625052612
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  CreatePosts: reverting ====================================================
+-- drop_table(:posts)
+   -> 0.0733s
+==  CreatePosts: reverted (0.0735s) ===========================================
+
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migrate:down VERSION=20100625052612[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KE
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+rake aborted!
+Don't know how to build task 'db:migratE'
+
+(See full trace by running task with --trace)
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migratE[Ke
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  CreatePosts: migrating ====================================================
+-- create_table(:posts)
+   -> 0.1212s
+==  CreatePosts: migrated (0.1213s) ===========================================
+
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migrateEe:down VERSION=20100625052612[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pscript/generate paperclip post image
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/generate paperclip post image[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./script/[K[Kt/generate paperclip post image
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from ./script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ gem list
+
+*** LOCAL GEMS ***
+
+actionmailer (2.3.8, 2.2.2, 2.1.1)
+actionpack (2.3.8, 2.2.2, 2.1.1)
+activerecord (2.3.8, 2.2.2, 2.1.1)
+activeresource (2.3.8, 2.2.2, 2.1.1)
+activesupport (2.3.8, 2.2.2, 2.1.1)
+adzap-ar_mailer (2.1.8)
+cgi_multipart_eof_fix (2.5.0)
+crack (0.1.6)
+curb (0.7.6)
+daemons (1.0.10)
+fastthread (1.0.7)
+gem_plugin (0.2.3)
+geokit (1.5.0)
+hashie (0.2.0)
+httparty (0.5.2)
+mongrel (1.1.5)
+mysql (2.8.1)
+nokogiri (1.4.2)
+oauth (0.4.0)
+patientslikeme-campaign_monitor (1.3.0)
+rack (1.1.0)
+rails (2.3.8, 2.2.2, 2.1.1)
+rake (0.8.7)
+rspec (1.3.0)
+sanitize (1.2.1)
+twitter (0.9.7)
+xml-simple (1.0.12)
+yajl-ruby (0.7.6)
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ sudo pat-get install imagemagick
+[sudo] password for justin: 
+sudo: pat-get: command not found
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ sudo pat-get install imagemagick[C[C[1P[C[1@p
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libhttrack2
+Use 'apt-get autoremove' to remove them.
+Suggested packages:
+  transfig imagemagick-doc
+The following NEW packages will be installed:
+  imagemagick
+0 upgraded, 1 newly installed, 0 to remove and 264 not upgraded.
+Need to get 95.6kB of archives.
+After this operation, 356kB of additional disk space will be used.
+0% [Working]            0% [Connecting to in.archive.ubuntu.com]0% [Connecting to in.archive.ubuntu.com]                                        Get:1 http://in.archive.ubuntu.com karmic/main imagemagick 7:6.5.1.0-1.1ubuntu3 [95.6kB]
+                                        1% [1 imagemagick 1158/95.6kB 1%]                                 56% [1 imagemagick 54434/95.6kB 56%]                                    100% [Working]              Fetched 95.6kB in 2s (44.3kB/s)
+Selecting previously deselected package imagemagick.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 138214 files and directories currently installed.)
+Unpacking imagemagick (from .../imagemagick_7%3a6.5.1.0-1.1ubuntu3_i386.deb) ...
+Processing triggers for menu ...
+Processing triggers for man-db ...
+Setting up imagemagick (7:6.5.1.0-1.1ubuntu3) ...
+
+Processing triggers for menu ...
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ sudo apt-get install imagemagickpa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgem list[K./script/generate paperclip post image
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from ./script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ suiodo [K=[K[K[K[K[Kdo gem install re[Kspec
+**************************************************
+
+  Thank you for installing rspec-1.3.0
+
+  Please be sure to read History.rdoc and Upgrade.rdoc
+  for useful information about this release.
+
+**************************************************
+Successfully installed rspec-1.3.0
+1 gem installed
+Installing ri documentation for rspec-1.3.0...
+Installing RDoc documentation for rspec-1.3.0...
+Could not find main page README.rdoc
+Could not find main page README.rdoc
+Could not find main page README.rdoc
+Could not find main page README.rdoc
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ sudo gem install rspec./script/generate paperclip post image
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- rails/generators/active_record (MissingSourceFile)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /home/justin/RailsProjects/Blog/vendor/plugins/paperclip/lib/generators/paperclip/paperclip_generator.rb:1
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/spec.rb:17:in `klass'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/lookup.rb:140:in `instance'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails_generator/scripts/../scripts.rb:31:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/generate.rb:6
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from ./script/generate:3
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/plugin install git://github.com/thoughtbot/paperclip.git
+already installed: paperclip (git://github.com/thoughtbot/paperclip.git).  pass --force to reinstall
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ 
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/plugin install git://github.com/thoughtbot/paperclip.git --force
+sh: svn: not found
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/plugin install https://svn.thoughtbot.com/plugins/paperclip/trunk/
+Plugin not found: ["https://svn.thoughtbot.com/plugins/paperclip/trunk/"]
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/plugin install https://svn.thoughtbot.com/plugins/paperclip/trunk/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K http://svn.github.com/thoughtbot/paperclip.
+Plugin not found: ["http://svn.github.com/thoughtbot/paperclip."]
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/plugin install http://svn.github.com/thoughtbot/paperclip.[K
+already installed: paperclip (http://svn.github.com/thoughtbot/paperclip).  pass --force to reinstall
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/plugin install http://svn.github.com/thoughtbot/paperclip --force
+sh: svn: not found
+Plugin not found: ["http://svn.github.com/thoughtbot/paperclip"]
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/plugin install http://svn.github.com/thoughtbot/paperclip --force[K.s://svn.thoughtbot.com/plugins/paperclip/trunk/[2Pgit://github.com/thoughtbot/paperclip.git --force[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25P./script/generate paperclip post image[16Psudo gem install rspec./script/generate paperclip post image[6Psudo apt-get install imagemagickpa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgem list[K./script/generate paperclip post image[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Prake db:migrateEe:down VERSION=20100625052612E[K[Ke
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  CreateCategories: migrating ===============================================
+-- create_table(:categories)
+   -> 0.1802s
+==  CreateCategories: migrated (0.1804s) ======================================
+
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migratescript/plugin install http://svn.github.com/thoughtbot/paperclip --force[K.s://svn.thoughtbot.com/plugins/paperclip/trunk/[2Pgit://github.com/thoughtbot/paperclip.git --force[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25P./script/generate paperclip post image[16Psudo gem install rspec./script/generate paperclip post image[6Psudo apt-get install imagemagickpa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgem list[K./script/generate paperclip post image[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Prake db:migrateEescript/generate paperclip post image[21Prake db:migrateEe:down VERSION=20100625052612[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pscript/generate paperclip post imagerake rails:update:application_controller[2P./script/generate paperclip post imagerake rails:update:application_controller[2P./script/generate paperclip post image[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@./script/generate paperclip posts[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P image[1Pimage[1Pmage[1Page[1Pge[1Pe[Kcontroller category index new create ei[Kdit update delete[1@s[1@h[1@o[1@w[1@ 
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/category
+      exists  test/functional/
+      exists  test/unit/helpers/
+      create  app/controllers/category_controller.rb
+      create  test/functional/category_controller_test.rb
+      create  app/helpers/category_helper.rb
+      create  test/unit/helpers/category_helper_test.rb
+      create  app/views/category/index.html.erb
+      create  app/views/category/new.html.erb
+      create  app/views/category/create.html.erb
+      create  app/views/category/edit.html.erb
+      create  app/views/category/show.html.erb
+      create  app/views/category/update.html.erb
+      create  app/views/category/delete.html.erb
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake routes
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+          root        /                                  {:action=>"index", :controller=>"home"}
+        signup        /signup                            {:action=>"new", :controller=>"users"}
+         login        /login                             {:action=>"new", :controller=>"sessions"}
+        logout        /logout                            {:action=>"destroy", :controller=>"sessions"}
+         users GET    /users(.:format)                   {:action=>"index", :controller=>"users"}
+               POST   /users(.:format)                   {:action=>"create", :controller=>"users"}
+      new_user GET    /users/new(.:format)               {:action=>"new", :controller=>"users"}
+     edit_user GET    /users/:id/edit(.:format)          {:action=>"edit", :controller=>"users"}
+          user GET    /users/:id(.:format)               {:action=>"show", :controller=>"users"}
+               PUT    /users/:id(.:format)               {:action=>"update", :controller=>"users"}
+               DELETE /users/:id(.:format)               {:action=>"destroy", :controller=>"users"}
+   new_session GET    /session/new(.:format)             {:action=>"new", :controller=>"sessions"}
+  edit_session GET    /session/edit(.:format)            {:action=>"edit", :controller=>"sessions"}
+       session GET    /session(.:format)                 {:action=>"show", :controller=>"sessions"}
+               PUT    /session(.:format)                 {:action=>"update", :controller=>"sessions"}
+               DELETE /session(.:format)                 {:action=>"destroy", :controller=>"sessions"}
+               POST   /session(.:format)                 {:action=>"create", :controller=>"sessions"}
+         posts GET    /posts(.:format)                   {:action=>"index", :controller=>"posts"}
+               POST   /posts(.:format)                   {:action=>"create", :controller=>"posts"}
+      new_post GET    /posts/new(.:format)               {:action=>"new", :controller=>"posts"}
+     edit_post GET    /posts/:id/edit(.:format)          {:action=>"edit", :controller=>"posts"}
+          post GET    /posts/:id(.:format)               {:action=>"show", :controller=>"posts"}
+               PUT    /posts/:id(.:format)               {:action=>"update", :controller=>"posts"}
+               DELETE /posts/:id(.:format)               {:action=>"destroy", :controller=>"posts"}
+category_index GET    /category(.:format)                {:action=>"index", :controller=>"category"}
+               POST   /category(.:format)                {:action=>"create", :controller=>"category"}
+  new_category GET    /category/new(.:format)            {:action=>"new", :controller=>"category"}
+ edit_category GET    /category/:id/edit(.:format)       {:action=>"edit", :controller=>"category"}
+      category GET    /category/:id(.:format)            {:action=>"show", :controller=>"category"}
+               PUT    /category/:id(.:format)            {:action=>"update", :controller=>"category"}
+               DELETE /category/:id(.:format)            {:action=>"destroy", :controller=>"category"}
+                      /:controller/:action/:id           
+                      /:controller/:action/:id(.:format) 
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake routes./script/generate controller category index new create edit show update delete[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[K
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migrate[4Proutes./script/generate controller category index new create edit show update delete[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crake db:migrate[Kscript/plugin install http://svn.github.com/thoughtbot/paperclip --force[K.s://svn.thoughtbot.com/plugins/paperclip/trunk/[2Pgit://github.com/thoughtbot/paperclip.git --force[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25P./script/generate paperclip post image[16Psudo gem install rspec./script/generate paperclip post image[6Psudo apt-get install imagemagickpa[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgem list[K./script/generate paperclip post image[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Prake db:migrateEeEe:down VERSION=2010062505261220100625094003[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K20100625094003
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  CreateCategories: reverting ===============================================
+-- drop_table(:categories)
+   -> 0.0945s
+==  CreateCategories: reverted (0.0946s) ======================================
+
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migrate:down VERSION=20100625094003[K
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  CreateCategories: migrating ===============================================
+-- create_table(:categories)
+   -> 0.1185s
+==  CreateCategories: migrated (0.1186s) ======================================
+
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/destroy controller somecategory[1Pomecategory[1Pmecategory[1Pecategory[1Pcategory
+          rm  test/unit/helpers/category_helper_test.rb
+          rm  app/helpers/category_helper.rb
+          rm  test/functional/category_controller_test.rb
+          rm  app/controllers/category_controller.rb
+    notempty  test/unit/helpers
+    notempty  test/unit
+    notempty  test
+    notempty  test/functional
+    notempty  test
+    notempty  app/views/category
+    notempty  app/views
+    notempty  app
+    notempty  app/helpers
+    notempty  app
+    notempty  app/controllers
+    notempty  app
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ script/destroy controller category[19Prake db:migrate:down VERSION=20100625094003[K[4Proutes./script/generate controller category index new create edit show update delete[1P[1@i[1@e[1@s
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/categories
+      exists  test/functional/
+      exists  test/unit/helpers/
+      create  app/controllers/categories_controller.rb
+      create  test/functional/categories_controller_test.rb
+      create  app/helpers/categories_helper.rb
+      create  test/unit/helpers/categories_helper_test.rb
+      create  app/views/categories/index.html.erb
+      create  app/views/categories/new.html.erb
+      create  app/views/categories/create.html.erb
+      create  app/views/categories/edit.html.erb
+      create  app/views/categories/show.html.erb
+      create  app/views/categories/update.html.erb
+      create  app/views/categories/delete.html.erb
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ ./script/generate controller categories index new create edit show update delete[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[46Pscript/destroy controller category[19Prake db:migrate:down VERSION=20100625094003[K[4Proutes
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+         root        /                                  {:action=>"index", :controller=>"home"}
+       signup        /signup                            {:action=>"new", :controller=>"users"}
+        login        /login                             {:action=>"new", :controller=>"sessions"}
+       logout        /logout                            {:action=>"destroy", :controller=>"sessions"}
+        users GET    /users(.:format)                   {:action=>"index", :controller=>"users"}
+              POST   /users(.:format)                   {:action=>"create", :controller=>"users"}
+     new_user GET    /users/new(.:format)               {:action=>"new", :controller=>"users"}
+    edit_user GET    /users/:id/edit(.:format)          {:action=>"edit", :controller=>"users"}
+         user GET    /users/:id(.:format)               {:action=>"show", :controller=>"users"}
+              PUT    /users/:id(.:format)               {:action=>"update", :controller=>"users"}
+              DELETE /users/:id(.:format)               {:action=>"destroy", :controller=>"users"}
+  new_session GET    /session/new(.:format)             {:action=>"new", :controller=>"sessions"}
+ edit_session GET    /session/edit(.:format)            {:action=>"edit", :controller=>"sessions"}
+      session GET    /session(.:format)                 {:action=>"show", :controller=>"sessions"}
+              PUT    /session(.:format)                 {:action=>"update", :controller=>"sessions"}
+              DELETE /session(.:format)                 {:action=>"destroy", :controller=>"sessions"}
+              POST   /session(.:format)                 {:action=>"create", :controller=>"sessions"}
+        posts GET    /posts(.:format)                   {:action=>"index", :controller=>"posts"}
+              POST   /posts(.:format)                   {:action=>"create", :controller=>"posts"}
+     new_post GET    /posts/new(.:format)               {:action=>"new", :controller=>"posts"}
+    edit_post GET    /posts/:id/edit(.:format)          {:action=>"edit", :controller=>"posts"}
+         post GET    /posts/:id(.:format)               {:action=>"show", :controller=>"posts"}
+              PUT    /posts/:id(.:format)               {:action=>"update", :controller=>"posts"}
+              DELETE /posts/:id(.:format)               {:action=>"destroy", :controller=>"posts"}
+   categories GET    /categories(.:format)              {:action=>"index", :controller=>"categories"}
+              POST   /categories(.:format)              {:action=>"create", :controller=>"categories"}
+ new_category GET    /categories/new(.:format)          {:action=>"new", :controller=>"categories"}
+edit_category GET    /categories/:id/edit(.:format)     {:action=>"edit", :controller=>"categories"}
+     category GET    /categories/:id(.:format)          {:action=>"show", :controller=>"categories"}
+              PUT    /categories/:id(.:format)          {:action=>"update", :controller=>"categories"}
+              DELETE /categories/:id(.:format)          {:action=>"destroy", :controller=>"categories"}
+                     /:controller/:action/:id           
+                     /:controller/:action/:id(.:format) 
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake routes
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+           root        /                                  {:action=>"index", :controller=>"home"}
+         signup        /signup                            {:action=>"new", :controller=>"users"}
+          login        /login                             {:action=>"new", :controller=>"sessions"}
+         logout        /logout                            {:action=>"destroy", :controller=>"sessions"}
+          users GET    /users(.:format)                   {:action=>"index", :controller=>"users"}
+                POST   /users(.:format)                   {:action=>"create", :controller=>"users"}
+       new_user GET    /users/new(.:format)               {:action=>"new", :controller=>"users"}
+      edit_user GET    /users/:id/edit(.:format)          {:action=>"edit", :controller=>"users"}
+           user GET    /users/:id(.:format)               {:action=>"show", :controller=>"users"}
+                PUT    /users/:id(.:format)               {:action=>"update", :controller=>"users"}
+                DELETE /users/:id(.:format)               {:action=>"destroy", :controller=>"users"}
+    new_session GET    /session/new(.:format)             {:action=>"new", :controller=>"sessions"}
+   edit_session GET    /session/edit(.:format)            {:action=>"edit", :controller=>"sessions"}
+        session GET    /session(.:format)                 {:action=>"show", :controller=>"sessions"}
+                PUT    /session(.:format)                 {:action=>"update", :controller=>"sessions"}
+                DELETE /session(.:format)                 {:action=>"destroy", :controller=>"sessions"}
+                POST   /session(.:format)                 {:action=>"create", :controller=>"sessions"}
+          posts GET    /posts(.:format)                   {:action=>"index", :controller=>"posts"}
+                POST   /posts(.:format)                   {:action=>"create", :controller=>"posts"}
+       new_post GET    /posts/new(.:format)               {:action=>"new", :controller=>"posts"}
+      edit_post GET    /posts/:id/edit(.:format)          {:action=>"edit", :controller=>"posts"}
+           post GET    /posts/:id(.:format)               {:action=>"show", :controller=>"posts"}
+                PUT    /posts/:id(.:format)               {:action=>"update", :controller=>"posts"}
+                DELETE /posts/:id(.:format)               {:action=>"destroy", :controller=>"posts"}
+ new_categories GET    /categories/new(.:format)          {:action=>"new", :controller=>"categories"}
+edit_categories GET    /categories/edit(.:format)         {:action=>"edit", :controller=>"categories"}
+     categories GET    /categories(.:format)              {:action=>"show", :controller=>"categories"}
+                PUT    /categories(.:format)              {:action=>"update", :controller=>"categories"}
+                DELETE /categories(.:format)              {:action=>"destroy", :controller=>"categories"}
+                POST   /categories(.:format)              {:action=>"create", :controller=>"categories"}
+                       /:controller/:action/:id           
+                       /:controller/:action/:id(.:format) 
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake routes./script/generate controller categories index new create edit show update delete[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[46Pscript/destroy controller category[19Prake db:migrate:down VERSION=20100625094003[K
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  CreateUsers: migrating ====================================================
+-- create_table("users", {:force=>true})
+   -> 0.1521s
+-- add_index(:users, :login, {:unique=>true})
+   -> 0.2594s
+==  CreateUsers: migrated (0.4118s) ===========================================
+
+==  CreatePosts: migrating ====================================================
+-- create_table(:posts)
+   -> 0.1168s
+==  CreatePosts: migrated (0.1169s) ===========================================
+
+==  CreateCategories: migrating ===============================================
+-- create_table(:categories)
+   -> 0.1483s
+==  CreateCategories: migrated (0.1485s) ======================================
+
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migrate[4Proutes./script/generate controller categories index new create edit show update delete[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[46Pscript/destroy controller category[19Prake db:migrate:down VERSION=20100625094003[K:down VERSION=2010062509400320100625052612[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K20100625052612
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  CreatePosts: reverting ====================================================
+-- drop_table(:posts)
+   -> 0.0579s
+==  CreatePosts: reverted (0.0581s) ===========================================
+
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migrate:down VERSION=20100625052612[K
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  CreatePosts: migrating ====================================================
+-- create_table(:posts)
+   -> 0.1193s
+==  CreatePosts: migrated (0.1195s) ===========================================
+
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake db:migrate
+(in /home/justin/RailsProjects/Blog)
+DEPRECATION WARNING: Rake tasks in vendor/plugins/restful_authentication/tasks are deprecated. Use lib/tasks instead. (called from /usr/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/tasks/rails.rb:10)
+==  AlterTablePost: migrating =================================================
+-- rename_column(:posts, :category_id, :caterory)
+rake aborted!
+An error has occurred, all later migrations canceled:
+
+No such column: posts.category_id
+
+(See full trace by running task with --trace)
+]0;justin@brightal04: ~/RailsProjects/Blogjustin@brightal04:~/RailsProjects/Blog$ rake

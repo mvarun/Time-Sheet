@@ -1,0 +1,13 @@
+<%if !@replays.blank?%>
+<%@replays.each do |replay| %>
+<table>
+    <tr>
+      <td><b>Reply:</b></td>
+    <tr></tr>
+    <td><%=replay.replay%></td>
+    </tr>
+    <%end%>
+     <%else%>
+    <td>No Replys yet</td>
+     <%end%>
+</table>

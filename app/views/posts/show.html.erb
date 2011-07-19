@@ -1,0 +1,10 @@
+<p>  <b>Post Category: </b><%=@post.category%></p>
+<p>  <b>Post Title:</b>
+<%=h @post.title %> </p>
+<p>  <b>Description:</b>
+<%=h @post.description %> </p>
+<p>Posted By <%=@post.user.login%> on <%=@post.created_at%></p>
+<h2>Comments</h2>
+<h4><%=link_to'Create New Comment For This Post',new_comment_path(:id => @post.id),:class=>"link"%></h4>
+<h4><%=link_to'Show Comments Of This Post',comments_path(:id => @post.id),:class=>"link"%></h4>
+<p><%=link_to 'Back',posts_path,:class=>"link"%></p>

@@ -1,0 +1,37 @@
+<table class="table">
+    <tr>
+      <%if !@posts.blank?%>
+    <%@posts.each do |post| %>
+      <td><font color="black">Post Title:</td></font>
+    <tr></tr>
+    <td><%=post.title%></td>
+    </tr>
+    <tr> <td><font color="black">Post Description:</td></font>
+    <tr></tr>
+      <td><%=post.description%></td></tr>
+<tr><td>Posted By <%=post.user.login%> on <%=post.created_at%></td></tr>
+    <tr>
+      <td><%=link_to 'details',post_path(post),:class=>"link"%></td>
+      <% if logged_in? %>
+      <% if current_user.login==post.user.login %>
+      <td><%=link_to 'edit',edit_post_path(post),:class=>"link"%></td>
+      <td><%=link_to 'delete',post_path(post),:confirm=>'Are you sure to delete this product',:method=>:delete,:class=>"link"%></td>
+    <% else %>
+      <% end %>
+    <% else %>
+      <% end %>
+    <td><%#=link_to'Comments',comment_path(post)%></td>
+      <td><%#=link_to 'edit',edit_post_path(post)%></td>
+        <td><%#=link_to 'delete',post_path(post),:confirm=>'Are you sure to delete this product',:method=>:delete%> </td>
+    <tr></tr>
+      </tr>
+      <tr></tr>
+      <%end%>
+      <%else%>
+      <td>No Posts Found</td>
+      <%end%>
+      </table>
+
+<%#= will_paginate @posts %>
+
+

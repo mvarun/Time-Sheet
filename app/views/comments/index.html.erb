@@ -1,0 +1,25 @@
+<%if !@comments.blank?%>
+<table><%@comments.each do |comment| %>
+    <tr>    
+      <td><b>Commenter:</b></td>
+    <td><%=comment.name%></td>
+    </tr>
+    <tr> <td><b>Comment:</b></td>
+         <td><%=comment.comment%></td>
+    </tr><tr><td></td></tr>
+     <tr><td><%=link_to 'show reply',replays_path(:id => comment.id),:class=>"link"%></td>
+       <% if logged_in? %>
+      <% if current_user.login==comment.post.user.login%>
+       <td><%=link_to 'new reply',new_replay_path(:id => comment.id),:class=>"link"%></td>
+    <% else %>
+      <% end %>
+    <% else %>
+      <% end %>
+     </tr>
+    <tr></tr><%end%>
+    <%else%>
+    <td>No Comments Found</td>
+    <%end%>
+</table>
+<br></br>
+<%=link_to 'Back',:back,:class=>"link"%>

@@ -1,0 +1,15 @@
+<%=link_to 'create new category',new_category_path,:class=>"link"%>
+<table class="table">
+    <tr>
+      <%if !@categories.blank?%>
+    <% @categories.each do |category| %>
+    <td><%=category.name%></td>   
+      
+           <td><%#=link_to 'edit',edit_category_path(category)%></td>
+        <td><%#=link_to 'delete',category_path(category),:confirm=>'Are you sure to delete this product',:method=>:delete%> </td>
+      </tr>
+      <%end%>
+      <%else%>
+      <td>No Categories Found</td>
+      <%end%>
+</table>

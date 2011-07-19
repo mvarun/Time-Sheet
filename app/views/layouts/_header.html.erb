@@ -1,0 +1,8 @@
+<p align="right"><%#= link_to 'Home ', root_path,:class=>"link" %> <%= link_to 'Blog Posts', posts_path,:class=>"link" %>
+<% if logged_in? %>
+ <%= link_to 'Logout', logout_path,:class=>"link" %><p align="right">Current User: <%=h current_user.login%></p>
+ <h4><%=link_to 'Create New Post',new_post_path,:class=>"link"%></h4>
+ <h5><%=link_to 'Category Listing',categories_path,:class=>"link"%></h5>
+<% else %>
+ <%= link_to 'Login', login_path,:class=>"link" %></p>
+<% end %>
