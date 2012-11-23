@@ -5,7 +5,7 @@ class CommentsController < ApplicationController
   end
 
   def new
-    #This is very much incorrect and terrible	
+    #This is very much incorrect and terribly wrong	
     @comment=Comment.new
     @comment.post_id=params[:id]
   end
